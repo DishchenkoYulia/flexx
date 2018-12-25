@@ -2,6 +2,40 @@
     margin: 0;
     padding: 0;
 }
+html{
+    height: 100%;
+}
 body{
     background-color: black;
+    height: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+.container i{
+    color: white;
+    border: 4px white solid;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    color: white;
+    font-size: 24px;
+    max-width: 470px;
+    margin: 0 100px;
+
+}
+.text p{
+    margin-bottom: 38px;
+}
+.text p:last-child{
+    margin-bottom: 0;
 }
